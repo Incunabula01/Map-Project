@@ -31,5 +31,8 @@
     "grunt-newer": "~1.1.1",
     "autoprefixer": "6.0.3",
     "grunt-postcss": "~0.6.0"
+  },
+  "dependencies": {
+    "mapbox": "^0.12.0"
   }
 }

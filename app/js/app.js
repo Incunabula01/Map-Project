@@ -23,19 +23,25 @@ var app = (function(document, $) {
 
 (function() {
 	app.init();
-	// var artMap = L.map('map').;
+	var artMap = L.map('artMap').setView([39.310545, -76.591842], 15);
 
-	// L.tileLayer('https://api.tiles.mapbox.com/v4/{ArtMap}/{z}/{x}/{y}.png?access_token={}',{
-	// 	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-	// 	maxZoom: 18,
-	// 	id: 'mapbox.mapbox-streets-v7',
-	// 	access_token: ''
-	// }).addTo(artMap);
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',{
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		maxZoom: 15,
+		id: 'mapbox.mapbox-streets-v4',
+		accessToken: 'pk.eyJ1IjoiandpZGVuZXIwOCIsImEiOiJjaWxtcWxxMG02OGFodHNrcGVzdnZ3YXFuIn0.FM69T3_XQ24DIhbOKiNhtg'
+	}).addTo(artMap);
 
-	L.mapbox.accessToken = 'pk.eyJ1IjoiandpZGVuZXIwOCIsImEiOiJjaWxqc3B1bms1OGRqdXRtMGwyYXVtMHNmIn0.pvQrDdCwnQx8Mdrp6XozoA';
-	L.mapbox.map('artMap', 'mapbox.mapbox-streets-v7', {
-		mapbox://styles/jwidener08/ciljssllr002xaqluxdmor881
-	}).setView([39.310545, -76.591842], 13);
+	console.log(artMap);
+	// mapboxgl.accessToken = 'p';
+
+	// var map = new mapboxgl.Map({
+	// 	container: 'artMap',
+	// 	style: 'mapbox://styles/jwidener08/ciljssllr002xaqluxdmor881',
+	// 	center: [39.310545, -76.591842],
+	// 	zoom: 10
+	// });
+	// L.mapbox.map('artMap', 'mapbox.mapbox-streets').setView([39.310545, -76.591842], 10);
 	
 	
 })();

@@ -1,0 +1,746 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "r4ur-u5nm",
+      "name" : "Baltimore Arts Organizations",
+      "attribution" : "The Baltimore Office of Promotion & The Arts",
+      "attributionLink" : "http://www.bop.org",
+      "averageRating" : 0,
+      "category" : "Culture & Arts",
+      "createdAt" : 1333124459,
+      "displayType" : "table",
+      "downloadCount" : 474,
+      "indexUpdatedAt" : 1414540135,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 7693259,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1396568816,
+      "publicationGroup" : 307952,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1396568800,
+      "rowsUpdatedBy" : "6r9a-dfdj",
+      "tableId" : 1533959,
+      "totalTimesRated" : 0,
+      "viewCount" : 269,
+      "viewLastModified" : 1396568817,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 141279260,
+        "name" : "organization",
+        "dataTypeName" : "text",
+        "fieldName" : "organization",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2409515,
+        "width" : 311,
+        "cachedContents" : {
+          "non_null" : 80,
+          "smallest" : "510 Readings ",
+          "null" : 0,
+          "largest" : "Waterfront Partnership",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Hamilton Lauraville Main Street"
+          }, {
+            "count" : 19,
+            "item" : "Handel Choir of Baltimore"
+          }, {
+            "count" : 18,
+            "item" : "Hippodrome"
+          }, {
+            "count" : 17,
+            "item" : "Homewood House"
+          }, {
+            "count" : 16,
+            "item" : "Jewish Museum of Maryland"
+          }, {
+            "count" : 15,
+            "item" : "Maryland Historical Society"
+          }, {
+            "count" : 14,
+            "item" : "Maryland Institute College of Art"
+          }, {
+            "count" : 13,
+            "item" : "MD Humanities Council "
+          }, {
+            "count" : 12,
+            "item" : "Modell Performing Arts Center at the Lyric"
+          }, {
+            "count" : 11,
+            "item" : "Mount Clare Musum House"
+          }, {
+            "count" : 10,
+            "item" : "Muse 360"
+          }, {
+            "count" : 9,
+            "item" : "Music for More/Drumming for the Song"
+          }, {
+            "count" : 8,
+            "item" : "Nana Projects"
+          }, {
+            "count" : 7,
+            "item" : "National James Baldwin Literary Society, Inc./BMI"
+          }, {
+            "count" : 6,
+            "item" : "New Mercury Readings "
+          }, {
+            "count" : 5,
+            "item" : "Peabody Institute"
+          }, {
+            "count" : 4,
+            "item" : "Performance Theatre Workshop"
+          }, {
+            "count" : 3,
+            "item" : "Port Discovery Children's Museum"
+          }, {
+            "count" : 2,
+            "item" : "Publishing Genius Press "
+          }, {
+            "count" : 1,
+            "item" : "Reginald Lewis Museum"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 141279261,
+        "name" : "adress",
+        "dataTypeName" : "text",
+        "fieldName" : "adress",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2409516,
+        "width" : 302,
+        "cachedContents" : {
+          "non_null" : 80,
+          "smallest" : "100 West Centre Street",
+          "null" : 0,
+          "largest" : "PO BOX 44601",
+          "top" : [ {
+            "count" : 20,
+            "item" : "847 N. Howard Street"
+          }, {
+            "count" : 19,
+            "item" : "12 Nprth Eutaw Street"
+          }, {
+            "count" : 18,
+            "item" : "JHU, 3400 N. Charles Street"
+          }, {
+            "count" : 17,
+            "item" : "15 Lloyd Street"
+          }, {
+            "count" : 16,
+            "item" : "201 W. Monument Street"
+          }, {
+            "count" : 15,
+            "item" : "1300 W. Mount Royal Avenue"
+          }, {
+            "count" : 14,
+            "item" : "108 West Centre"
+          }, {
+            "count" : 13,
+            "item" : "140 West Mount Royal"
+          }, {
+            "count" : 12,
+            "item" : "1500 Washington Blvd."
+          }, {
+            "count" : 11,
+            "item" : "847 N. Howard St"
+          }, {
+            "count" : 10,
+            "item" : "PO BOX 44601"
+          }, {
+            "count" : 9,
+            "item" : "4504 Wilmslow"
+          }, {
+            "count" : 8,
+            "item" : "3618 Greenmount Avenue"
+          }, {
+            "count" : 7,
+            "item" : "3312 Beech Avenue"
+          }, {
+            "count" : 6,
+            "item" : "1 East Mount Vernon Place"
+          }, {
+            "count" : 5,
+            "item" : "5426 Harford Road"
+          }, {
+            "count" : 4,
+            "item" : "35 Market Place"
+          }, {
+            "count" : 3,
+            "item" : "1818 E. Lafayette Avenue"
+          }, {
+            "count" : 2,
+            "item" : "830 East Pratt Strett"
+          }, {
+            "count" : 1,
+            "item" : "1427 Light Street"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 141279262,
+        "name" : "cityState",
+        "dataTypeName" : "text",
+        "fieldName" : "citystate",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2409517,
+        "width" : 111,
+        "cachedContents" : {
+          "non_null" : 80,
+          "smallest" : "Baltimore, MD",
+          "null" : 0,
+          "largest" : "Baltimore, MD",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Baltimore, MD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 141279263,
+        "name" : "zipCode",
+        "dataTypeName" : "text",
+        "fieldName" : "zipcode",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2409518,
+        "width" : 78,
+        "cachedContents" : {
+          "non_null" : 80,
+          "smallest" : "21201",
+          "null" : 0,
+          "largest" : "21251",
+          "top" : [ {
+            "count" : 20,
+            "item" : "21211"
+          }, {
+            "count" : 19,
+            "item" : "21230"
+          }, {
+            "count" : 18,
+            "item" : "21201"
+          }, {
+            "count" : 17,
+            "item" : "21202"
+          }, {
+            "count" : 16,
+            "item" : "21223"
+          }, {
+            "count" : 15,
+            "item" : "21227"
+          }, {
+            "count" : 14,
+            "item" : "21209"
+          }, {
+            "count" : 13,
+            "item" : "21236"
+          }, {
+            "count" : 12,
+            "item" : "21214"
+          }, {
+            "count" : 11,
+            "item" : "21218"
+          }, {
+            "count" : 10,
+            "item" : "21215"
+          }, {
+            "count" : 9,
+            "item" : "21228"
+          }, {
+            "count" : 8,
+            "item" : "21224"
+          }, {
+            "count" : 7,
+            "item" : "21207"
+          }, {
+            "count" : 6,
+            "item" : "21203"
+          }, {
+            "count" : 5,
+            "item" : "21217"
+          }, {
+            "count" : 4,
+            "item" : "21210"
+          }, {
+            "count" : 3,
+            "item" : "21213"
+          }, {
+            "count" : 2,
+            "item" : "21251"
+          }, {
+            "count" : 1,
+            "item" : "21231"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 141279264,
+        "name" : "URL",
+        "dataTypeName" : "url",
+        "fieldName" : "url",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 2409519,
+        "width" : 327,
+        "cachedContents" : {
+          "non_null" : 74,
+          "smallest" : {
+            "url" : "http://510readings.blogspot.com/"
+          },
+          "null" : 6,
+          "largest" : {
+            "url" : "http://www.waterfrontpartnership.org/"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "http://www.museums.jhu.edu/"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "http://www.jhsm.org/"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "http://www.mdhs.org/"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "http://www.mica.edu/"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "http://www.mdhc.org/"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "http://www.lyricoperahouse.com/"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "http://www.mountclare.org/"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "http://www.muse360.org/"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "http://music4more.com/"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "http://www.nanaprojects.com/nanaprojects.html"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "http://jamesbaldwin.org/Home_Page.html"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "http://thenewmercuryreadings.com/"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "http://www.peabody.jhu.edu/"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "http://www.performanceworkshoptheatre.org/Welcome.html"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "url" : "http://www.portdiscovery.org/"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "url" : "http://publishinggenius.com/"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "url" : "http://www.africanamericanculture.org/"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "url" : "http://www.school33.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "url" : "http://singlecarrot.com/"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "url" : "http://www.stationnorth.org/"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 141279265,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2409520,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 80,
+          "smallest" : {
+            "longitude" : "-76.6147609992571",
+            "latitude" : "39.2973714758715",
+            "human_address" : "{\"address\":\"1 East Mount Vernon Place\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-76.60331999999988",
+            "latitude" : "39.32947000000013",
+            "human_address" : "{\"address\":\"PO Box 33226\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-76.56149415546167",
+              "latitude" : "39.35225709931967",
+              "human_address" : "{\"address\":\"5500 Harford Road - Suite 201\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-76.64123187588612",
+              "latitude" : "39.33052218178104",
+              "human_address" : "{\"address\":\"3600 Clipper Mill Road, Suite 150\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-76.62253999999996",
+              "latitude" : "39.294880000000035",
+              "human_address" : "{\"address\":\"12 Nprth Eutaw Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-76.61797969757966",
+              "latitude" : "39.32913762457502",
+              "human_address" : "{\"address\":\"JHU, 3400 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-76.6012891552582",
+              "latitude" : "39.29000602845156",
+              "human_address" : "{\"address\":\"15 Lloyd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-76.61907774499775",
+              "latitude" : "39.2973984555324",
+              "human_address" : "{\"address\":\"201 W. Monument Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-76.62114988191786",
+              "latitude" : "39.30750188439189",
+              "human_address" : "{\"address\":\"1300 W. Mount Royal Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-76.62253999999996",
+              "latitude" : "39.294880000000035",
+              "human_address" : "{\"address\":\"108 West Centre\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-76.61863173205661",
+              "latitude" : "39.30580731396832",
+              "human_address" : "{\"address\":\"140 West Mount Royal\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-76.63747787371722",
+              "latitude" : "39.2790073200332",
+              "human_address" : "{\"address\":\"1500 Washington Blvd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-76.62009397889085",
+              "latitude" : "39.299673740266485",
+              "human_address" : "{\"address\":\"847 N. Howard St\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-76.48454999999996",
+              "latitude" : "39.387410000000045",
+              "human_address" : "{\"address\":\"PO BOX 44601\",\"city\":\"\",\"state\":\"\",\"zip\":\"21236\"}"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-76.62857844260641",
+              "latitude" : "39.345474627420884",
+              "human_address" : "{\"address\":\"4504 Wilmslow\",\"city\":\"\",\"state\":\"\",\"zip\":\"21210\"}"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-76.60948197894515",
+              "latitude" : "39.33299362145209",
+              "human_address" : "{\"address\":\"3618 Greenmount Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-76.62253999999996",
+              "latitude" : "39.294880000000035",
+              "human_address" : "{\"address\":\"3312 Beech Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-76.6147609992571",
+              "latitude" : "39.2973714758715",
+              "human_address" : "{\"address\":\"1 East Mount Vernon Place\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-76.5618898571546",
+              "latitude" : "39.35178045864416",
+              "human_address" : "{\"address\":\"5426 Harford Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-76.60666138878938",
+              "latitude" : "39.288206791276075",
+              "human_address" : "{\"address\":\"35 Market Place\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-76.59237687394784",
+              "latitude" : "39.31076238088775",
+              "human_address" : "{\"address\":\"1818 E. Lafayette Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-76.60749999999996",
+              "latitude" : "39.297300000000064",
+              "human_address" : "{\"address\":\"830 East Pratt Strett\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "owner" : {
+        "id" : "n22b-663u",
+        "displayName" : "hchudson_bmore",
+        "privilegesDisabled" : false,
+        "roleName" : "administrator",
+        "screenName" : "hchudson_bmore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "n22b-663u",
+        "displayName" : "hchudson_bmore",
+        "privilegesDisabled" : false,
+        "roleName" : "administrator",
+        "screenName" : "hchudson_bmore",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "theater", "art", "music", "dance", "literature", "photography" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "C1F634D5-3A3D-4F05-82D2-C34A86D2C350", 1, 1333124460, "393202", 1333124473, "393202", "{\n}", "510 Readings ", "815 W. 36th Street", "Baltimore, MD", "21211", [ "http://510readings.blogspot.com/", null ], [ "{\"address\":\"815 W. 36th Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.33121296383405", "-76.62987860256965", null, false ] ]
+, [ 2, "4789BB14-9299-429B-8BA3-3FAEA2D120BD", 2, 1333124460, "393202", 1333124470, "393202", "{\n}", "Amaranthine Musuem", "2010 Clipper Park Road", "Baltimore, MD", "21211", [ "http://amaranthinemuseum.org/", null ], [ "{\"address\":\"2010 Clipper Park Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.331788529932794", "-76.6448613075778", null, false ] ]
+, [ 3, "831928B0-31B0-4C5A-943C-AAEEF5F2BA8F", 3, 1333124460, "393202", 1333124471, "393202", "{\n}", "American Visionary Art Museum", "800 Key Highway", "Baltimore, MD", "21230", [ "http://www.avam.org/", null ], [ "{\"address\":\"800 Key Highway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.28022140477276", "-76.60655918234988", null, false ] ]
+, [ 4, "BF814F44-F528-400C-AC5E-A693E4672A84", 4, 1333124460, "393202", 1333124472, "393202", "{\n}", "Arena Players, Inc.", "801 McCulloh Street", "Baltimore, MD", "21201", [ null, null ], [ "{\"address\":\"801 McCulloh Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29868448603429", "-76.62299878904554", null, false ] ]
+, [ 5, "FD2C2773-BB79-4CB4-8760-0DDB2B95C62C", 5, 1333124460, "393202", 1333124474, "393202", "{\n}", "ARTblocks", "834 W. 36th Street", "Baltimore, MD", "21211", [ "http://www.artblocks.org/home.html", null ], [ "{\"address\":\"834 W. 36th Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.33117699095288", "-76.63059806019311", null, false ] ]
+, [ 6, "A08B3511-31EB-4568-BDB3-BBB1B6B7717A", 6, 1333124460, "393202", 1333124472, "393202", "{\n}", "Audrey Herman Spotlighters Theatre, Inc.", "817 St. Paul Street", "Baltimore, MD", "21202", [ "http://www.spotlighters.org/", null ], [ "{\"address\":\"817 St. Paul Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.299403943657694", "-76.61417643993809", null, false ] ]
+, [ 7, "AA9D816F-EF45-4309-BB40-BD8609B7477D", 7, 1333124460, "393202", 1333124472, "393202", "{\n}", "B&O Railroad Museum", "901 W. Pratt Street", "Baltimore, MD", "21223", [ "http://www.borail.org/", null ], [ "{\"address\":\"901 W. Pratt Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.285851160676145", "-76.63208194154146", null, false ] ]
+, [ 8, "239DEEC2-9B9C-4D38-86F3-385E8ED45D15", 8, 1333124460, "393202", 1333124469, "393202", "{\n}", "Bach Concert Series", "701 S. Charles St., Christ Lutheran Church", "Baltimore, MD", "21230", [ "http://www.bachinbaltimore.org/", null ], [ "{\"address\":\"701 S. Charles St., Christ Lutheran Church\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.266940000000034", "-76.62630000000001", null, false ] ]
+, [ 9, "267B6956-D5E3-4F19-8BF8-BA0B2B4450DE", 9, 1333124460, "393202", 1333124469, "393202", "{\n}", "Baltimore Architecture Foundation", "1016 Morton Street", "Baltimore, MD", "21201", [ "http://baltimorearchitecture.org/", null ], [ "{\"address\":\"1016 Morton Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.30176016737448", "-76.61664957551864", null, false ] ]
+, [ 10, "D46DA0C6-E42F-4F03-8D74-5315A30F95D8", 10, 1333124460, "393202", 1333124473, "393202", "{\n}", "Baltimore Classical Guitar Society", "4607 Maple Ave", "Baltimore, MD", "21227", [ "http://www.bcgs.org/", null ], [ "{\"address\":\"4607 Maple Ave\",\"city\":\"\",\"state\":\"\",\"zip\":\"21227\"}", "39.24033647277332", "-76.68979143616161", null, false ] ]
+, [ 11, "C0A258F3-BBFE-4979-80BA-75F97FB04A0E", 11, 1333124460, "393202", 1333124472, "393202", "{\n}", "Baltimore Clayworks", "5707 Smith Avenue", "Baltimore, MD", "21209", [ "http://www.baltimoreclayworks.org/", null ], [ "{\"address\":\"5707 Smith Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21209\"}", "39.367869329748316", "-76.65275735499506", null, false ] ]
+, [ 12, "1E255A9A-FD9D-4246-806D-C3E5D969D1D5", 12, 1333124460, "393202", 1333124468, "393202", "{\n}", "Baltimore Dance Collective", "7430 Brookwood Avenue", "Baltimore, MD", "21236", [ "http://www.collective-dance.com/home.html", null ], [ "{\"address\":\"7430 Brookwood Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21236\"}", "39.35573239572771", "-76.51331214016797", null, false ] ]
+, [ 13, "716CFAE2-49C3-4D51-A94F-69C76078C674", 13, 1333124460, "393202", 1333124471, "393202", "{\n}", "Baltimore Heritage, Inc.", "11 1/2 West Chase Street", "Baltimore, MD", "21201", [ "http://www.baltimoreheritage.org/", null ], [ "{\"address\":\"11 1/2 West Chase Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.30233573347323", "-76.61701829755066", null, false ] ]
+, [ 14, "E57D6A97-B837-4AFB-A2F6-596887BAC4E4", 14, 1333124460, "393202", 1333124474, "393202", "{\n}", "Baltimore Improv Group", "4910 Morello Road", "Baltimore, MD", "21214", [ "http://bigimprov.org/", null ], [ "{\"address\":\"4910 Morello Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}", "39.347742502732615", "-76.57091005710845", null, false ] ]
+, [ 15, "0C30FC76-FB69-4076-8125-33FB406B2736", 15, 1333124460, "393202", 1333124468, "393202", "{\n}", "Baltimore Jazz Alliance", "847 N. Howard Street", "Baltimore, MD", "21201", [ "http://www.baltimorejazz.com/", null ], [ "{\"address\":\"847 N. Howard Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.299673740266485", "-76.62009397889085", null, false ] ]
+, [ 16, "A237D58C-1F43-4D21-A2D9-E84D8B608383", 16, 1333124460, "393202", 1333124472, "393202", "{\n}", "Baltimore Museum of Industry", "1415 Key Highway", "Baltimore, MD", "21230", [ "http://www.thebmi.org/", null ], [ "{\"address\":\"1415 Key Highway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27363836751829", "-76.60234136203252", null, false ] ]
+, [ 17, "A9FA45C3-4259-43D8-B2F7-AC9636E87577", 17, 1333124460, "393202", 1333124472, "393202", "{\n}", "Baltimore Review ", "Minas Gallery, 815 W. 36th Street", "Baltimore, MD", "21218", [ "http://www.baltimorereview.org/", null ], [ "{\"address\":\"Minas Gallery, 815 W. 36th Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.33199671490249", "-76.60470245371175", null, false ] ]
+, [ 18, "3ED2EC97-1288-442F-A7D0-5D63AAC8FBCF", 18, 1333124460, "393202", 1333124470, "393202", "{\n}", "Baltimore Symphony Orchestra", "1212 Cathedral Street", "Baltimore, MD", "21201", [ "http://www.bsomusic.org/", null ], [ "{\"address\":\"1212 Cathedral Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.30409840465069", "-76.61857412466134", null, false ] ]
+, [ 19, "8722CF0C-1616-4B80-BE88-F7625EDC1C4E", 19, 1333124460, "393202", 1333124472, "393202", "{\n}", "Baltimore Talent Education Center", "6900 Park Heights Avenue, Room 127", "Baltimore, MD", "21215", [ "http://www.baltimoresuzuki.com/", null ], [ "{\"address\":\"6900 Park Heights Avenue, Room 127\",\"city\":\"\",\"state\":\"\",\"zip\":\"21215\"}", "39.364799253034384", "-76.70289204964969", null, false ] ]
+, [ 20, "1F53A68A-5981-4429-B94A-7FC148BF67C9", 20, 1333124460, "393202", 1333124468, "393202", "{\n}", "Baltimore Theatre Project", "45 W. Preston Street", "Baltimore, MD", "21201", [ "http://www.theatreproject.org/", null ], [ "{\"address\":\"45 W. Preston Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.304365690490435", "-76.61818694061579", null, false ] ]
+, [ 21, "DE5F2231-C6DB-40E5-87C8-FEA2ACAE1735", 21, 1333124460, "393202", 1333124473, "393202", "{\n}", "Black Cherry Puppet Theater", "1115 Hollins Street", "Baltimore, MD", "21223", [ "http://www.blackcherry.org/", null ], [ "{\"address\":\"1115 Hollins Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}", "39.28738000812598", "-76.63570620931955", null, false ] ]
+, [ 22, "B85F1372-42EE-44A8-A2A3-5AF3D7B7A48A", 22, 1333124460, "393202", 1333124472, "393202", "{\n}", "Brick House Books ", "306 Suffolk Road", "Baltimore, MD", "21218", [ "http://brickhousebooks.wordpress.com/", null ], [ "{\"address\":\"306 Suffolk Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.33213027230397", "-76.61253967384476", null, false ] ]
+, [ 23, "9E9D5A29-53A2-4F97-985F-57438B8730A0", 23, 1333124460, "393202", 1333124472, "393202", "{\n}", "Carroll Museums, Inc.", "800 E. Lombard Street", "Baltimore, MD", "21202", [ "http://www.carrollmuseums.org/", null ], [ "{\"address\":\"800 E. Lombard Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.28842322167998", "-76.60435584337813", null, false ] ]
+, [ 24, "BFC139F1-20C6-4759-B0EF-095E1CED6529", 24, 1333124460, "393202", 1333124472, "393202", "{\n}", "Center Stage", "700 North Calvert Street", "Baltimore, MD", "21202", [ "http://www.centerstage.org/", null ], [ "{\"address\":\"700 North Calvert Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.29800999451231", "-76.61291738909705", null, false ] ]
+, [ 25, "2D8B2977-312A-405C-A332-39DC5F92C6E7", 25, 1333124460, "393202", 1333124469, "393202", "{\n}", "Charm City Dance Theatre", "5602 Baltimore National Pike, Suite 102", "Baltimore, MD", "21228", [ null, null ], [ "{\"address\":\"5602 Baltimore National Pike, Suite 102\",\"city\":\"\",\"state\":\"\",\"zip\":\"21228\"}", "39.289353353384136", "-76.72706762454348", null, false ] ]
+, [ 26, "0CC9A506-BAC3-40A5-8B94-1F6172681569", 26, 1333124460, "393202", 1333124468, "393202", "{\n}", "CityLit Project", "120 S. Curley Street", "Baltimore, MD", "21224", [ "http://www.citylitproject.org/", null ], [ "{\"address\":\"120 S. Curley Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21224\"}", "39.29062656065173", "-76.57537069437376", null, false ] ]
+, [ 27, "386CDC84-AF17-4AE9-82B5-C491D06A484B", 27, 1333124460, "393202", 1333124469, "393202", "{\n}", "Community Concerts at Second", "4200 St. Paul Street", "Baltimore, MD", "21218", [ "http://www.communityconcertsatsecond.org/", null ], [ "{\"address\":\"4200 St. Paul Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.340997587512845", "-76.61821439584963", null, false ] ]
+, [ 28, "2BA7A28C-37B6-42F7-BF0C-165591D22AEF", 28, 1333124460, "393202", 1333124469, "393202", "{\n}", "Contemporary Arts, Inc.", "7221 Croydon Road", "Baltimore, MD", "21207", [ "http://www.contemporaryartsinc.org/", null ], [ "{\"address\":\"7221 Croydon Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21207\"}", "39.34033208921119", "-76.74223090369009", null, false ] ]
+, [ 29, "B5612FF3-F0FF-49CD-9D13-BAA209F1F3FF", 29, 1333124460, "393202", 1333124472, "393202", "{\n}", "Contemporary Museum", "100 West Centre Street", "Baltimore, MD", "21201", [ "http://www.contemporary.org/", null ], [ "{\"address\":\"100 West Centre Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29625631655517", "-76.61792661280026", null, false ] ]
+, [ 30, "FAE6E253-7921-44F9-BFA0-50AAE7E0E9A9", 30, 1333124460, "393202", 1333124474, "393202", "{\n}", "Creative Alliance", "3134 Eastern Ave", "Baltimore, MD", "21224", [ "http://www.creativealliance.org/", null ], [ "{\"address\":\"3134 Eastern Ave\",\"city\":\"\",\"state\":\"\",\"zip\":\"21224\"}", "39.28643571999521", "-76.5717644130363", null, false ] ]
+, [ 31, "F1C67291-1352-4A7D-8C78-EF2653B6532E", 31, 1333124460, "393202", 1333124474, "393202", "{\n}", "Current Space", "PO BOX 23821", "Baltimore, MD", "21203", [ "http://www.currentspace.com/", null ], [ "{\"address\":\"PO BOX 23821\",\"city\":\"\",\"state\":\"\",\"zip\":\"21203\"}", "39.2912", "-76.60457999999994", null, false ] ]
+, [ 32, "863D8055-C482-460B-B214-568B3C6E1621", 32, 1333124460, "393202", 1333124472, "393202", "{\n}", "Cylburn Chamber Music Series", "4915 Greenspring Avenue", "Baltimore, MD", "21209", [ null, null ], [ "{\"address\":\"4915 Greenspring Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21209\"}", "39.35073724509016", "-76.65955622953658", null, false ] ]
+, [ 33, "852F89BD-A0B6-455F-B67A-6E513621A6C0", 33, 1333124460, "393202", 1333124471, "393202", "{\n}", "Dance & Bmore", "112 E. Preston Street, #1", "Baltimore, MD", "21202", [ "http://www.danceandbmore.com/", null ], [ "{\"address\":\"112 E. Preston Street, #1\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.304593031766785", "-76.61363684672051", null, false ] ]
+, [ 34, "61992E2B-ECAE-4842-83D6-2FDDBB4602E4", 34, 1333124460, "393202", 1333124470, "393202", "{\n}", "Dance Baltimore", "847 N. Howard Street", "Baltimore, MD", "21201", [ "http://www.dancebaltimore.org/", null ], [ "{\"address\":\"847 N. Howard Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.299673740266485", "-76.62009397889085", null, false ] ]
+, [ 35, "3D7587CB-311D-4A7F-8C11-8C6BC1D4CC0C", 35, 1333124460, "393202", 1333124469, "393202", "{\n}", "Daydreams and Nightmares Aerial Theatre", "1914 Mount Royal Terrace, 1st Floor", "Baltimore, MD", "21217", [ "http://www.daydreamsandnightmares.com/", null ], [ "{\"address\":\"1914 Mount Royal Terrace, 1st Floor\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.311409892748884", "-76.62610145004658", null, false ] ]
+, [ 36, "9E73F755-2017-4ED3-879B-F2024B713E13", 36, 1333124460, "393202", 1333124472, "393202", "{\n}", "EMP Collective", "306 W. Redwood Street", "Baltimore, MD", "21202", [ "http://empcollective.org/", null ], [ "{\"address\":\"306 W. Redwood Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ] ]
+, [ 37, "91F9B15C-E34F-4C43-9D06-E4F98BF05F02", 37, 1333124460, "393202", 1333124472, "393202", "{\n}", "Enoch Pratt Free Library ", "400 Cathedral Street", "Baltimore, MD", "21201", [ "http://www.prattlibrary.org/", null ], [ "{\"address\":\"400 Cathedral Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.2945386114792", "-76.61682943992452", null, false ] ]
+, [ 38, "3AF34A83-AE68-4A82-B636-606AEEFCA570", 38, 1333124460, "393202", 1333124469, "393202", "{\n}", "Eubie Blake Cultural Center", "847 N. Howard Street", "Baltimore, MD", "21201", [ "http://www.eubieblake.org/", null ], [ "{\"address\":\"847 N. Howard Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.299673740266485", "-76.62009397889085", null, false ] ]
+, [ 39, "22F93D01-D65D-4146-9574-22B468324FE6", 39, 1333124460, "393202", 1333124469, "393202", "{\n}", "Everyman Theatre", "1727 N. Charles Street", "Baltimore, MD", "21201", [ "http://everymantheatre.org/", null ], [ "{\"address\":\"1727 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.30951232326703", "-76.61645172467223", null, false ] ]
+, [ 40, "CFD9F593-A1BF-4F88-89BD-AF42261CF479", 40, 1333124460, "393202", 1333124473, "393202", "{\n}", "Fleckenstein Gallery", "3316 Keswick Road", "Baltimore, MD", "21211", [ "http://www.fleckensteingallery.com/", null ], [ "{\"address\":\"3316 Keswick Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.32737445534606", "-76.62785988487249", null, false ] ]
+, [ 41, "711D43BF-6E25-41D5-AEE9-24E9436DDD50", 41, 1333124460, "393202", 1333124471, "393202", "{\n}", "Greater Baltimore Cultural Alliance", "1800 N. Charles Street, Suite 810", "Baltimore, MD", "21201", [ "http://baltimoreculture.org/", null ], [ "{\"address\":\"1800 N. Charles Street, Suite 810\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.3099889639426", "-76.6164876975534", null, false ] ]
+, [ 42, "6C6B55BA-E302-42FA-A31F-8051BA998A1C", 42, 1333124460, "393202", 1333124471, "393202", "{\n}", "Hamilton Lauraville Main Street", "5500 Harford Road - Suite 201", "Baltimore, MD", "21214", [ "http://www.bmoremainstreet.com/", null ], [ "{\"address\":\"5500 Harford Road - Suite 201\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}", "39.35225709931967", "-76.56149415546167", null, false ] ]
+, [ 43, "9736743A-8385-40B2-8E3F-1704D9DE5AB1", 43, 1333124460, "393202", 1333124472, "393202", "{\n}", "Handel Choir of Baltimore", "3600 Clipper Mill Road, Suite 150", "Baltimore, MD", "21211", [ "http://www.handelchoir.org/", null ], [ "{\"address\":\"3600 Clipper Mill Road, Suite 150\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}", "39.33052218178104", "-76.64123187588612", null, false ] ]
+, [ 44, "FDC6AD17-5393-4B15-B632-55033C76AA00", 44, 1333124460, "393202", 1333124474, "393202", "{\n}", "Hippodrome", "12 Nprth Eutaw Street", "Baltimore, MD", "21201", [ "http://www.france-merrickpac.com/home.html", null ], [ "{\"address\":\"12 Nprth Eutaw Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ] ]
+, [ 45, "DD4FADC3-DD6C-4E33-AA7F-A6380ABFC956", 45, 1333124460, "393202", 1333124473, "393202", "{\n}", "Homewood House", "JHU, 3400 N. Charles Street", "Baltimore, MD", "21218", [ "http://www.museums.jhu.edu/", null ], [ "{\"address\":\"JHU, 3400 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32913762457502", "-76.61797969757966", null, false ] ]
+, [ 46, "5AB6B778-E9D7-44B8-8105-43FB082316BF", 46, 1333124460, "393202", 1333124470, "393202", "{\n}", "Jewish Museum of Maryland", "15 Lloyd Street", "Baltimore, MD", "21202", [ "http://www.jhsm.org/", null ], [ "{\"address\":\"15 Lloyd Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.29000602845156", "-76.6012891552582", null, false ] ]
+, [ 47, "41DF4354-3469-43C7-B10E-49D4CB53A6EA", 47, 1333124460, "393202", 1333124470, "393202", "{\n}", "Maryland Historical Society", "201 W. Monument Street", "Baltimore, MD", "21201", [ "http://www.mdhs.org/", null ], [ "{\"address\":\"201 W. Monument Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.2973984555324", "-76.61907774499775", null, false ] ]
+, [ 48, "5C63FEC3-887C-4471-ADAB-5B7275DDC848", 48, 1333124460, "393202", 1333124470, "393202", "{\n}", "Maryland Institute College of Art", "1300 W. Mount Royal Avenue", "Baltimore, MD", "21217", [ "http://www.mica.edu/", null ], [ "{\"address\":\"1300 W. Mount Royal Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.30750188439189", "-76.62114988191786", null, false ] ]
+, [ 49, "FFF203E2-54F6-4D2F-9CEE-647062CBC288", 49, 1333124460, "393202", 1333124474, "393202", "{\n}", "MD Humanities Council ", "108 West Centre", "Baltimore, MD", "21201", [ "http://www.mdhc.org/", null ], [ "{\"address\":\"108 West Centre\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ] ]
+, [ 50, "070A4C60-253E-4A3D-B947-D3F2190E7EC3", 50, 1333124460, "393202", 1333124468, "393202", "{\n}", "Modell Performing Arts Center at the Lyric", "140 West Mount Royal", "Baltimore, MD", "21201", [ "http://www.lyricoperahouse.com/", null ], [ "{\"address\":\"140 West Mount Royal\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.30580731396832", "-76.61863173205661", null, false ] ]
+, [ 51, "6A56A64F-71A1-4BC3-A5EB-6F405808E4A8", 51, 1333124460, "393202", 1333124471, "393202", "{\n}", "Mount Clare Musum House", "1500 Washington Blvd.", "Baltimore, MD", "21230", [ "http://www.mountclare.org/", null ], [ "{\"address\":\"1500 Washington Blvd.\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.2790073200332", "-76.63747787371722", null, false ] ]
+, [ 52, "D4322F29-ECFB-4D05-BA7F-DB4387965038", 52, 1333124460, "393202", 1333124473, "393202", "{\n}", "Muse 360", "847 N. Howard St", "Baltimore, MD", "21201", [ "http://www.muse360.org/", null ], [ "{\"address\":\"847 N. Howard St\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.299673740266485", "-76.62009397889085", null, false ] ]
+, [ 53, "A10746C9-B21C-4434-82D9-61EE0266CFA6", 53, 1333124460, "393202", 1333124472, "393202", "{\n}", "Music for More/Drumming for the Song", "PO BOX 44601", "Baltimore, MD", "21236", [ "http://music4more.com/", null ], [ "{\"address\":\"PO BOX 44601\",\"city\":\"\",\"state\":\"\",\"zip\":\"21236\"}", "39.387410000000045", "-76.48454999999996", null, false ] ]
+, [ 54, "3DF8A06D-5D38-487D-9738-1874279C5C2A", 54, 1333124460, "393202", 1333124469, "393202", "{\n}", "Nana Projects", "4504 Wilmslow", "Baltimore, MD", "21210", [ "http://www.nanaprojects.com/nanaprojects.html", null ], [ "{\"address\":\"4504 Wilmslow\",\"city\":\"\",\"state\":\"\",\"zip\":\"21210\"}", "39.345474627420884", "-76.62857844260641", null, false ] ]
+, [ 55, "0ADBB796-D347-4C04-9FBC-27AD37253797", 55, 1333124460, "393202", 1333124468, "393202", "{\n}", "National James Baldwin Literary Society, Inc./BMI", "3618 Greenmount Avenue", "Baltimore, MD", "21218", [ "http://jamesbaldwin.org/Home_Page.html", null ], [ "{\"address\":\"3618 Greenmount Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.33299362145209", "-76.60948197894515", null, false ] ]
+, [ 56, "1875763B-A1EE-4A1C-A425-CF39E6F01E15", 56, 1333124460, "393202", 1333124468, "393202", "{\n}", "New Mercury Readings ", "3312 Beech Avenue", "Baltimore, MD", "21201", [ "http://thenewmercuryreadings.com/", null ], [ "{\"address\":\"3312 Beech Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.294880000000035", "-76.62253999999996", null, false ] ]
+, [ 57, "E8D16CE6-C3B8-4ABF-8725-B3B9F3E4C6B8", 57, 1333124460, "393202", 1333124474, "393202", "{\n}", "Peabody Institute", "1 East Mount Vernon Place", "Baltimore, MD", "21202", [ "http://www.peabody.jhu.edu/", null ], [ "{\"address\":\"1 East Mount Vernon Place\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.2973714758715", "-76.6147609992571", null, false ] ]
+, [ 58, "8FBCD29F-4E80-412E-BE50-8AD176194FFA", 58, 1333124460, "393202", 1333124472, "393202", "{\n}", "Performance Theatre Workshop", "5426 Harford Road", "Baltimore, MD", "21214", [ "http://www.performanceworkshoptheatre.org/Welcome.html", null ], [ "{\"address\":\"5426 Harford Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}", "39.35178045864416", "-76.5618898571546", null, false ] ]
+, [ 59, "50C5B1E9-7DA1-4EDA-A96A-1CDB2DA1B9E6", 59, 1333124460, "393202", 1333124470, "393202", "{\n}", "Port Discovery Children's Museum", "35 Market Place", "Baltimore, MD", "21202", [ "http://www.portdiscovery.org/", null ], [ "{\"address\":\"35 Market Place\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.288206791276075", "-76.60666138878938", null, false ] ]
+, [ 60, "6C9F61DE-CA4F-476E-A075-4D1E9168FF40", 60, 1333124460, "393202", 1333124471, "393202", "{\n}", "Publishing Genius Press ", "1818 E. Lafayette Avenue", "Baltimore, MD", "21213", [ "http://publishinggenius.com/", null ], [ "{\"address\":\"1818 E. Lafayette Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}", "39.31076238088775", "-76.59237687394784", null, false ] ]
+, [ 61, "18F9CC45-DCF8-4AAD-BB7A-6E12241046F4", 61, 1333124460, "393202", 1333124468, "393202", "{\n}", "Reginald Lewis Museum", "830 East Pratt Strett", "Baltimore, MD", "21202", [ "http://www.africanamericanculture.org/", null ], [ "{\"address\":\"830 East Pratt Strett\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ] ]
+, [ 62, "D41CCF59-32DF-4F58-80E5-82EA0CB6A9F6", 62, 1333124460, "393202", 1333124473, "393202", "{\n}", "School 33 Art Center", "1427 Light Street", "Baltimore, MD", "21230", [ "http://www.school33.org/", null ], [ "{\"address\":\"1427 Light Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.27339555057034", "-76.61182920944162", null, false ] ]
+, [ 63, "273DA0AD-37A4-4A21-AB48-F2C38032D180", 63, 1333124460, "393202", 1333124469, "393202", "{\n}", "Seton Hill Associates, Inc.", "701 Tessier Street", "Baltimore, MD", "21201", [ null, null ], [ "{\"address\":\"701 Tessier Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29629228943634", "-76.62447367717357", null, false ] ]
+, [ 64, "D39E60C4-24F8-4162-A2A7-44D592004796", 64, 1333124460, "393202", 1333124473, "393202", "{\n}", "Single Carrot Theatre", "120 W. North Avenue", "Baltimore, MD", "21201", [ "http://singlecarrot.com/", null ], [ "{\"address\":\"120 W. North Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.31110412325893", "-76.6189968060151", null, false ] ]
+, [ 65, "FF7B2AC7-FDFB-4517-8489-4789B5AD1AA4", 65, 1333124460, "393202", 1333124474, "393202", "{\n}", "Station North Art & Entertainment District", "1800 N. Charles Street, Suite 810", "Baltimore, MD", "21201", [ "http://www.stationnorth.org/", null ], [ "{\"address\":\"1800 N. Charles Street, Suite 810\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.3099889639426", "-76.6164876975534", null, false ] ]
+, [ 66, "7AC75CEB-9E60-42F5-978C-7D7BFB927717", 66, 1333124460, "393202", 1333124471, "393202", "{\n}", "Strand Theater Company", "1823 N. Charles Street", "Baltimore, MD", "21201", [ "http://www.strand-theater.org/", null ], [ "{\"address\":\"1823 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.31051956393986", "-76.61653266365482", null, false ] ]
+, [ 67, "13C204ED-5B8F-45C9-8135-A2CC44D62E5F", 67, 1333124460, "393202", 1333124468, "393202", "{\n}", "Studiokafi Photography", "3101 Gibbons Avenue", "Baltimore, MD", "21214", [ "http://studiokafi.wordpress.com/", null ], [ "{\"address\":\"3101 Gibbons Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21214\"}", "39.350008794246435", "-76.56075671139769", null, false ] ]
+, [ 68, "EE6C602B-900E-4FFC-A591-107622BBA7F3", 68, 1333124460, "393202", 1333124474, "393202", "{\n}", "The Baltimore Museum of Art", "2 Art Museum Drive", "Baltimore, MD", "21218", [ "http://www.artbma.org/", null ], [ "{\"address\":\"2 Art Museum Drive\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32622729910942", "-76.61781220024338", null, false ] ]
+, [ 69, "717C7BE6-72D8-4724-A611-BDA0F18A76FF", 69, 1333124460, "393202", 1333124471, "393202", "{\n}", "The Maryland Science Center", "601 Light Street", "Baltimore, MD", "21230", [ "http://www.mdsci.org/", null ], [ "{\"address\":\"601 Light Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}", "39.28182219798492", "-76.61280947045356", null, false ] ]
+, [ 70, "6170D552-AFB1-4B8A-9E0B-5570D0E4F5C3", 70, 1333124460, "393202", 1333124470, "393202", "{\n}", "The Maryland Zoo in Baltimore", "Druid Hill Park", "Baltimore, MD", "21217", [ "http://www.marylandzoo.org/", null ], [ "{\"address\":\"Druid Hill Park\",\"city\":\"\",\"state\":\"\",\"zip\":\"21217\"}", "39.316007473609055", "-76.64384898808959", null, false ] ]
+, [ 71, "D72994D5-25CF-4AE4-9703-0EEC8EC6A2FD", 71, 1333124460, "393202", 1333124473, "393202", "{\n}", "The National Aquarium in Baltimore", "501 East Pratt", "Baltimore, MD", "21202", [ "http://www.aqua.org/", null ], [ "{\"address\":\"501 East Pratt\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.28661599582985", "-76.6086951180508", null, false ] ]
+, [ 72, "B0B0DD0C-1B0B-4117-989F-2238294DE555", 72, 1333124460, "393202", 1333124472, "393202", "{\n}", "The Star-Bangled Banner Flag House Museum", "844 E. Pratt Street", "Baltimore, MD", "21202", [ "http://www.flaghouse.org/", null ], [ "{\"address\":\"844 E. Pratt Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.28724793126078", "-76.60353435270669", null, false ] ]
+, [ 73, "E8DAEEB2-B7C3-47D0-B113-AEEF11AD0D48", 73, 1333124460, "393202", 1333124474, "393202", "{\n}", "The Walters Art Museum", "600 N. Charles Street", "Baltimore, MD", "21201", [ "http://thewalters.org/", null ], [ "{\"address\":\"600 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29647215384222", "-76.61575924670967", null, false ] ]
+, [ 74, "AEF5EC1F-E943-4B56-AB41-2F55D1C1779E", 74, 1333124460, "393202", 1333124472, "393202", "{\n}", "Theatre Action Group", "3400 Old York Road", "Baltimore, MD", "21218", [ null, null ], [ "{\"address\":\"3400 Old York Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.329890960450996", "-76.6082678942056", null, false ] ]
+, [ 75, "4F2D89DA-1C77-469F-AB9A-E310ADBC2B86", 75, 1333124460, "393202", 1333124470, "393202", "{\n}", "Theatre Morgan", "Morgan State University, 214D Murphy Fine Arts Center", "Baltimore, MD", "21251", [ "http://www.murphyfineartscenter.org/index.asp", null ], [ "{\"address\":\"Morgan State University, 214D Murphy Fine Arts Center\",\"city\":\"\",\"state\":\"\",\"zip\":\"21251\"}", "39.345780000000104", "-76.58591999999993", null, false ] ]
+, [ 76, "429142FB-A3EF-4BB4-856C-1B2C57F503E8", 76, 1333124460, "393202", 1333124470, "393202", "{\n}", "Unchained Talent", "PO Box 33226", "Baltimore, MD", "21218", [ "http://www.unchainedtalent.org/", null ], [ "{\"address\":\"PO Box 33226\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}", "39.32947000000013", "-76.60331999999988", null, false ] ]
+, [ 77, "0975F045-017F-474A-95FD-32E2A6CD3161", 77, 1333124460, "393202", 1333124593, "393202", "{\n  \"invalidCells\" : {\n    \"2409519\" : \"Vagabond Players, Inc.\"\n  }\n}", "Vagabond Players, Inc.", "806 S. Broadway", "Baltimore, MD", "21231", [ "http://www.vagabondplayers.org/", null ], [ "{\"address\":\"806 S. Broadway\",\"city\":\"\",\"state\":\"\",\"zip\":\"21231\"}", "39.28234380476192", "-76.593456060383", null, false ] ]
+, [ 78, "D380CD51-ED9B-4030-A99C-21A386FB7B7C", 78, 1333124460, "393202", 1333124473, "393202", "{\n}", "Visions Christian School of Etiquette and Dance, Inc.", "8001-B Harford Road", "Baltimore, MD", "21234", [ "http://www.vcsed.com/", null ], [ "{\"address\":\"8001-B Harford Road\",\"city\":\"\",\"state\":\"\",\"zip\":\"21234\"}", "39.39391999999992", "-76.53322000000003", null, false ] ]
+, [ 79, "61BD93BE-43E0-4D91-9CEB-83A1738F0961", 79, 1333124460, "393202", 1333124471, "393202", "{\n}", "Walters - Literary Arts Week ", "600 N. Charles Street", "Baltimore, MD", "21201", [ null, null ], [ "{\"address\":\"600 N. Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21201\"}", "39.29647215384222", "-76.61575924670967", null, false ] ]
+, [ 80, "991016B8-B4AE-4FA9-9F5A-83F9BC68646C", 80, 1333124460, "393202", 1333124472, "393202", "{\n}", "Waterfront Partnership", "901 S. Bond Street, Suite 400", "Baltimore, MD", "21202", [ "http://www.waterfrontpartnership.org/", null ], [ "{\"address\":\"901 S. Bond Street, Suite 400\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}", "39.297300000000064", "-76.60749999999996", null, false ] ]
+ ]
+}

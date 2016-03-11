@@ -28,22 +28,26 @@ var app = (function(document, $) {
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',{
 		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		maxZoom: 15,
-		id: 'mapbox.mapbox-streets-v4',
+		id: 'mapbox.baltimore-dark',
 		accessToken: 'pk.eyJ1IjoiandpZGVuZXIwOCIsImEiOiJjaWxtcWxxMG02OGFodHNrcGVzdnZ3YXFuIn0.FM69T3_XQ24DIhbOKiNhtg'
 	}).addTo(artMap);
 
-	console.log(artMap);
-	// mapboxgl.accessToken = 'p';
+	// var circle = L.circle([39.310545, -76.591842], 500, {
+ //    	color: 'red',
+ //    	fillColor: '#f03',
+ //    	fillOpacity: 0.5
+	// }).addTo(artMap);
 
-	// var map = new mapboxgl.Map({
-	// 	container: 'artMap',
-	// 	style: 'mapbox://styles/jwidener08/ciljssllr002xaqluxdmor881',
-	// 	center: [39.310545, -76.591842],
-	// 	zoom: 10
-	// });
-	// L.mapbox.map('artMap', 'mapbox.mapbox-streets').setView([39.310545, -76.591842], 10);
+	var popup = L.popup();
+
+	function onMapClick(e){
+		popup.setLatLng(e.latlng).setContent("You clicked the map" + e.latlng.toString())
+		.openOn(artMap);
+	}
 	
-	
+	artMap.on('click', onMapClick);
+
+	console.log(artMap);
 })();
 
 //

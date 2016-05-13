@@ -6828,3 +6828,10 @@ th.hide-for-touch {
   position: relative;
   top: 0;
   left: 0; }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Roboto', 'Helvetica', sans-serif; }

@@ -23,10 +23,7 @@ var app = (function(document, $) {
 
 (function() {
 	app.init();
-
-	var artMap = L.map('artMap').setView([39.31106, -76.615], 15);
-
-	
+	var artMap = L.map('artMap').setView([39.310545, -76.591842], 15);
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',{
 		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -50,6 +47,7 @@ var app = (function(document, $) {
 	
 	artMap.on('click', onMapClick);
 
+
 	var markers = $.ajax({
 		url: "data/baltimoreMurals.json",
 		context: document.body
@@ -58,25 +56,66 @@ var app = (function(document, $) {
 		alert("data retrieved!");
 	});
 
-// var markers = $.getJSON("data/baltimoreMurals.json", function(json){
-// 	var latitude = json.results[0].item.latitude;
-// 	var longitude = json.results[0].item.longitude;
-// 	var address = json.result[0].item.human_address;
-// });
+	var markers =  [{
+            "count" : 20,
+            "item" : {
+              "longitude" : "-76.6467109421284",
+              "latitude" : "39.282715815213734",
+              "human_address" : "{\"address\":\"416 Monroe Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21223\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-76.57272668760766",
+              "latitude" : "39.321059618123286",
+              "human_address" : "{\"address\":\"3120 Erdman Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21213\"}"
+            	}
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-76.61689946066649",
+              "latitude" : "39.317348011827555",
+              "human_address" : "{\"address\":\"2439 Charles Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}"
+            	}
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-76.64942087026634",
+              "latitude" : "39.26934860143854",
+              "human_address" : "{\"address\":\"2300 Washington Boulevard\",\"city\":\"\",\"state\":\"\",\"zip\":\"21230\"}"
+            	}
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-76.61110975181816",
+              "latitude" : "39.32380255031262",
+              "human_address" : "{\"address\":\"2900 Barclay Street (Mosaic)\",\"city\":\"\",\"state\":\"\",\"zip\":\"21218\"}"
+            	}
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-76.63118153080997",
+              "latitude" : "39.328900494898825",
+              "human_address" : "{\"address\":\"3424 Elm Avenue\",\"city\":\"\",\"state\":\"\",\"zip\":\"21211\"}"
+            	}
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-76.60749999999996",
+              "latitude" : "39.297300000000064",
+              "human_address" : "{\"address\":\"436 W. Lafayette Street\",\"city\":\"\",\"state\":\"\",\"zip\":\"21202\"}"
+            }
+          }];
 
 	
-// for(var i = 0; markers.length; i++){
-// 					L.marker( [markers[i].item.latitude, markers[i].item.longitude])
-// 					.bindPopup( '<p>' + markers[i].item.human_address + '</p>' )
-// 				  .addTo(artMap);
-// 		}
+	for(var i = 0; markers.length; i++){
+					L.marker( [markers[i].item.latitude, markers[i].item.longitude])
+					.bindPopup( '<p>' + markers[i].item.human_address + '</p>' )
+				  .addTo(artMap);
+		}
 		
 console.log(markers);
 	
- 
- 
-
-
-})();
+});
 
 //

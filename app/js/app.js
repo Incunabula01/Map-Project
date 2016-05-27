@@ -47,15 +47,6 @@ var app = (function(document, $) {
 	
 	artMap.on('click', onMapClick);
 
-
-	var markers = $.ajax({
-		url: "data/baltimoreMurals.json",
-		context: document.body
-	}).done(function(){
-		return data;
-		alert("data retrieved!");
-	});
-
 	var markers =  [{
             "count" : 20,
             "item" : {
@@ -114,7 +105,7 @@ var app = (function(document, $) {
 				  .addTo(artMap);
 		}
 		
-console.log(markers);
+console.log(artMap);
 	
 });
 
